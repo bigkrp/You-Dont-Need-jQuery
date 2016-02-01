@@ -275,7 +275,7 @@
     $el.css("color");
 
     // Нативно
-    // ЗАМЕТКА: Известная ошика, возвращает 'auto' если значение стиля 'auto'
+    // ЗАМЕТКА: Известная ошибка, возвращает 'auto' если значение стиля 'auto'
     const win = el.ownerDocument.defaultView;
     // null означает не возвращать псевдостили
     win.getComputedStyle(el, null).color;
